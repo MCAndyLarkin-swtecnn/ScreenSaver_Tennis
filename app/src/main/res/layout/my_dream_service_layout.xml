@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:textSize="80sp"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/score"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:progress="100"
+        android:translationY="110dp"/>
+        <TextView
+            android:id="@+id/tec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RotatePhone"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="o"
+            android:translationX="150dp"
+            android:translationY="130dp"
+            android:textColor="@color/white"/>
+
+
+</FrameLayout>
